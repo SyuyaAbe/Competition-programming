@@ -22,7 +22,7 @@ int main(){
     for(int i=0;i<n;i++) ans3 += pow(abs(x[i]-y[i]),3);
     cout << fixed << setprecision(6) << pow(ans3, 1.0/3.0) << endl;
     
-    //p=4
+    //p=infinity
     int temp[110], max;
     for(int i=0;i<n;i++) temp[i] = abs(x[i]-y[i]);
     max = temp[0];
